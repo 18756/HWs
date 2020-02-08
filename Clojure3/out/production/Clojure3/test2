@@ -1,0 +1,41 @@
+% Дисциплины осеннего семестра первого курса
+course(1, fall, 'Прог').
+course(1, fall, 'АиСД').
+course(1, fall, 'АрхЭВМ').
+course(1, fall, 'МатАн').
+course(1, fall, 'ЛинАл').
+course(1, fall, 'ИнЯз').
+
+% Дисциплины весеннего семестра первого курса
+course(1, spring, 'МатАн').
+course(1, spring, 'ЛинАл').
+course(1, spring, 'ДиМат').
+course(1, spring, 'Прог').
+course(1, spring, 'АиСД').
+course(1, spring, 'ИнЯз').
+course(1, spring, 'С++').
+
+% Дисциплины осеннего семестра второго курса
+course(2, fall, 'МатАн').
+course(2, fall, 'АиСД').
+course(2, fall, 'ДиМат').
+course(2, fall, 'ДифУр').
+course(2, fall, 'С++').
+course(2, fall, 'Web').
+course(2, fall, 'ИнЯз').
+course(2, fall, 'БЖД').
+
+% Дисциплины весеннего семестра второго курса
+course(2, spring, 'Java').
+course(2, spring, 'АиСД').
+course(2, spring, 'ДиМат').
+course(2, spring, 'МатАн').
+course(2, spring, 'МатЛог').
+course(2, spring, 'ОС').
+course(2, 'spring', 'ТФКП').
+'course'(2, spring, 'ИнЯз').
+
+% Запросы фактов
+
+/*
+? - course(1, spring, 'Прог'). % Читается ли программирование весной первого курса.

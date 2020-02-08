@@ -1,0 +1,6 @@
+ru.itmo.wp.model.database	DatabaseUtils.java	/^package ru.itmo.wp.model.database;$/;"	p
+DatabaseUtils	DatabaseUtils.java	/^public class DatabaseUtils {$/;"	c
+getDataSource	DatabaseUtils.java	/^    public static DataSource getDataSource() {$/;"	m	class:DatabaseUtils
+DataSourceHolder	DatabaseUtils.java	/^    private static final class DataSourceHolder {$/;"	c	class:DatabaseUtils
+INSTANCE	DatabaseUtils.java	/^        private static final DataSource INSTANCE;$/;"	f	class:DatabaseUtils.DataSourceHolder	file:
+properties	DatabaseUtils.java	/^        private static final Properties properties = new Properties();$/;"	f	class:DatabaseUtils.DataSourceHolder	file:

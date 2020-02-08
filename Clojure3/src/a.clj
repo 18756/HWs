@@ -1,0 +1,1 @@
+(def date (new Date))

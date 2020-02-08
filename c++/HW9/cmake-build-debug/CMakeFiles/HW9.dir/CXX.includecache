@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sasha/CLionProjects/HW9/Polynomial.cpp
+iostream
+-
+cmath
+-
+Polynomial.h
+/home/sasha/CLionProjects/HW9/Polynomial.h
+
+/home/sasha/CLionProjects/HW9/Polynomial.h
+cstddef
+-
+iostream
+-
+

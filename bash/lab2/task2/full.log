@@ -1,0 +1,542 @@
+	Warning:  warning, (EE) error, (NI) not implemented, (??) unknown.
+[    24.024] Warning:  The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+[    24.024] Warning:  The directory "/usr/share/fonts/X11/100dpi/" does not exist.
+[    24.024] Warning:  The directory "/usr/share/fonts/X11/75dpi/" does not exist.
+[    24.024] Warning:  The directory "/usr/share/fonts/X11/100dpi" does not exist.
+[    24.024] Warning:  The directory "/usr/share/fonts/X11/75dpi" does not exist.
+[    24.495] Warning:  Warning, couldn't open module nvidia
+[    24.544] Warning:  Warning, couldn't open module nvidia
+[    24.545] Warning:  Falling back to old probe method for modesetting
+[    24.545] Warning:  Falling back to old probe method for fbdev
+[    24.546] Warning:  Falling back to old probe method for vesa
+[    26.280] Warning:  evdev: Microsoft Microsoft® 2.4GHz Transceiver v7.0: ignoring absolute axes.
+[    26.281] Warning:  evdev: Microsoft Microsoft® 2.4GHz Transceiver v7.0: ignoring absolute axes.
+	(++) from command line, (!!) notice, Information:  informational,
+[    24.024] Information:  The server relies on udev to provide the list of input devices.
+[    24.024] Information:  Loader magic: 0x55d11fdc5e00
+[    24.024] Information:  Module ABI versions:
+[    24.024] Information:  systemd-logind: logind integration requires -keeptty and -keeptty was not provided, disabling logind integration
+[    24.025] Information:  xfree86: Adding drm device (/dev/dri/card0)
+[    24.028] Information:  LoadModule: "glx"
+[    24.170] Information:  Loading /usr/lib/xorg/modules/extensions/libglx.so
+[    24.495] Information:  Module glx: vendor="X.Org Foundation"
+[    24.495] Information:  LoadModule: "nvidia"
+[    24.495] Information:  UnloadModule: "nvidia"
+[    24.495] Information:  Unloading nvidia
+[    24.496] Information:  LoadModule: "nouveau"
+[    24.496] Information:  Loading /usr/lib/xorg/modules/drivers/nouveau_drv.so
+[    24.543] Information:  Module nouveau: vendor="X.Org Foundation"
+[    24.543] Information:  LoadModule: "modesetting"
+[    24.543] Information:  Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+[    24.543] Information:  Module modesetting: vendor="X.Org Foundation"
+[    24.543] Information:  LoadModule: "fbdev"
+[    24.544] Information:  Loading /usr/lib/xorg/modules/drivers/fbdev_drv.so
+[    24.544] Information:  Module fbdev: vendor="X.Org Foundation"
+[    24.544] Information:  LoadModule: "vesa"
+[    24.544] Information:  Loading /usr/lib/xorg/modules/drivers/vesa_drv.so
+[    24.544] Information:  Module vesa: vendor="X.Org Foundation"
+[    24.544] Information:  LoadModule: "nvidia"
+[    24.544] Information:  UnloadModule: "nvidia"
+[    24.544] Information:  Unloading nvidia
+[    24.544] Information:  LoadModule: "nouveau"
+[    24.544] Information:  Loading /usr/lib/xorg/modules/drivers/nouveau_drv.so
+[    24.544] Information:  Module nouveau: vendor="X.Org Foundation"
+[    24.544] Information:  UnloadModule: "nouveau"
+[    24.544] Information:  Unloading nouveau
+[    24.544] Information:  Failed to load module "nouveau" (already loaded, 0)
+[    24.544] Information:  LoadModule: "modesetting"
+[    24.544] Information:  Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+[    24.544] Information:  Module modesetting: vendor="X.Org Foundation"
+[    24.544] Information:  UnloadModule: "modesetting"
+[    24.544] Information:  Unloading modesetting
+[    24.544] Information:  Failed to load module "modesetting" (already loaded, 0)
+[    24.544] Information:  LoadModule: "fbdev"
+[    24.545] Information:  Loading /usr/lib/xorg/modules/drivers/fbdev_drv.so
+[    24.545] Information:  Module fbdev: vendor="X.Org Foundation"
+[    24.545] Information:  UnloadModule: "fbdev"
+[    24.545] Information:  Unloading fbdev
+[    24.545] Information:  Failed to load module "fbdev" (already loaded, 0)
+[    24.545] Information:  LoadModule: "vesa"
+[    24.545] Information:  Loading /usr/lib/xorg/modules/drivers/vesa_drv.so
+[    24.545] Information:  Module vesa: vendor="X.Org Foundation"
+[    24.545] Information:  UnloadModule: "vesa"
+[    24.545] Information:  Unloading vesa
+[    24.545] Information:  Failed to load module "vesa" (already loaded, 0)
+[    24.545] Information:  NOUVEAU driver Date:   Fri Apr 21 14:41:17 2017 -0400
+[    24.545] Information:  NOUVEAU driver for NVIDIA chipset families :
+[    24.545] Information:  modesetting: Driver for Modesetting Kernel Drivers: kms
+[    24.545] Information:  FBDEV: driver for framebuffer: fbdev
+[    24.545] Information:  VESA: driver for VESA chipsets: vesa
+[    24.545] Information:  [drm] nouveau interface version: 1.3.1
+[    24.545] Information:  Loading sub module "fbdevhw"
+[    24.545] Information:  LoadModule: "fbdevhw"
+[    24.545] Information:  Loading /usr/lib/xorg/modules/libfbdevhw.so
+[    24.546] Information:  Module fbdevhw: vendor="X.Org Foundation"
+[    24.546] Information:  Loading sub module "dri2"
+[    24.546] Information:  LoadModule: "dri2"
+[    24.546] Information:  Module "dri2" already built-in
+[    24.546] Information:  NOUVEAU(0): Creating default Display subsection in Screen section
+[    24.546] Information:  NOUVEAU(0): Initializing outputs ...
+[    24.547] Information:  NOUVEAU(0): Output DVI-D-1 has no monitor section
+[    24.616] Information:  NOUVEAU(0): Output HDMI-1 has no monitor section
+[    24.680] Information:  NOUVEAU(0): Output DP-1 has no monitor section
+[    24.680] Information:  NOUVEAU(0): 3 crtcs needed for screen.
+[    24.680] Information:  NOUVEAU(0): Allocated crtc nr. 0 to this screen.
+[    24.680] Information:  NOUVEAU(0): Allocated crtc nr. 1 to this screen.
+[    24.680] Information:  NOUVEAU(0): Allocated crtc nr. 2 to this screen.
+[    24.680] Information:  NOUVEAU(0): Allocated crtc nr. 3 to this screen.
+[    24.681] Information:  NOUVEAU(0): EDID for output DVI-D-1
+[    24.750] Information:  NOUVEAU(0): EDID for output HDMI-1
+[    24.750] Information:  NOUVEAU(0): Manufacturer: SAM  Model: 633  Serial#: 1313096016
+[    24.750] Information:  NOUVEAU(0): Year: 2010  Week: 8
+[    24.750] Information:  NOUVEAU(0): EDID Version: 1.3
+[    24.750] Information:  NOUVEAU(0): Digital Display Input
+[    24.750] Information:  NOUVEAU(0): Max Image Size [cm]: horiz.: 41  vert.: 26
+[    24.750] Information:  NOUVEAU(0): Gamma: 2.20
+[    24.750] Information:  NOUVEAU(0): DPMS capabilities: Off
+[    24.750] Information:  NOUVEAU(0): Supported color encodings: RGB 4:4:4 YCrCb 4:4:4 
+[    24.750] Information:  NOUVEAU(0): First detailed timing is preferred mode
+[    24.750] Information:  NOUVEAU(0): redX: 0.640 redY: 0.329   greenX: 0.300 greenY: 0.600
+[    24.750] Information:  NOUVEAU(0): blueX: 0.150 blueY: 0.060   whiteX: 0.312 whiteY: 0.329
+[    24.750] Information:  NOUVEAU(0): Supported established timings:
+[    24.750] Information:  NOUVEAU(0): 720x400@70Hz
+[    24.750] Information:  NOUVEAU(0): 640x480@60Hz
+[    24.750] Information:  NOUVEAU(0): 640x480@67Hz
+[    24.750] Information:  NOUVEAU(0): 640x480@72Hz
+[    24.750] Information:  NOUVEAU(0): 640x480@75Hz
+[    24.750] Information:  NOUVEAU(0): 800x600@56Hz
+[    24.750] Information:  NOUVEAU(0): 800x600@60Hz
+[    24.750] Information:  NOUVEAU(0): 800x600@72Hz
+[    24.750] Information:  NOUVEAU(0): 800x600@75Hz
+[    24.750] Information:  NOUVEAU(0): 832x624@75Hz
+[    24.750] Information:  NOUVEAU(0): 1024x768@60Hz
+[    24.750] Information:  NOUVEAU(0): 1024x768@70Hz
+[    24.750] Information:  NOUVEAU(0): 1024x768@75Hz
+[    24.750] Information:  NOUVEAU(0): 1280x1024@75Hz
+[    24.750] Information:  NOUVEAU(0): 1152x864@75Hz
+[    24.750] Information:  NOUVEAU(0): Manufacturer's mask: 0
+[    24.750] Information:  NOUVEAU(0): Supported standard timings:
+[    24.750] Information:  NOUVEAU(0): #0: hsize: 1152  vsize 864  refresh: 75  vid: 20337
+[    24.750] Information:  NOUVEAU(0): #1: hsize: 1280  vsize 800  refresh: 60  vid: 129
+[    24.750] Information:  NOUVEAU(0): #2: hsize: 1280  vsize 960  refresh: 60  vid: 16513
+[    24.750] Information:  NOUVEAU(0): #3: hsize: 1280  vsize 1024  refresh: 60  vid: 32897
+[    24.750] Information:  NOUVEAU(0): #4: hsize: 1440  vsize 900  refresh: 75  vid: 3989
+[    24.750] Information:  NOUVEAU(0): #5: hsize: 1280  vsize 800  refresh: 75  vid: 3969
+[    24.750] Information:  NOUVEAU(0): Supported detailed timing:
+[    24.750] Information:  NOUVEAU(0): clock: 106.5 MHz   Image Size:  408 x 255 mm
+[    24.750] Information:  NOUVEAU(0): h_active: 1440  h_sync: 1520  h_sync_end 1672 h_blank_end 1904 h_border: 0
+[    24.750] Information:  NOUVEAU(0): v_active: 900  v_sync: 903  v_sync_end 909 v_blanking: 934 v_border: 0
+[    24.750] Information:  NOUVEAU(0): Ranges: V min: 56 V max: 75 Hz, H min: 30 H max: 81 kHz, PixClock max 145 MHz
+[    24.750] Information:  NOUVEAU(0): Monitor name: SMB1930NW
+[    24.750] Information:  NOUVEAU(0): Serial No: HMFZ200638
+[    24.750] Information:  NOUVEAU(0): Supported detailed timing:
+[    24.750] Information:  NOUVEAU(0): clock: 27.0 MHz   Image Size:  160 x 90 mm
+[    24.750] Information:  NOUVEAU(0): h_active: 720  h_sync: 736  h_sync_end 798 h_blank_end 858 h_border: 0
+[    24.750] Information:  NOUVEAU(0): v_active: 480  v_sync: 489  v_sync_end 495 v_blanking: 525 v_border: 0
+[    24.750] Information:  NOUVEAU(0): Number of EDID sections to follow: 1
+[    24.750] Information:  NOUVEAU(0): EDID (in hex):
+[    24.750] Information:  NOUVEAU(0): 	00ffffffffffff004c2d33065041444e
+[    24.750] Information:  NOUVEAU(0): 	0814010380291a782ade91a3544c9926
+[    24.750] Information:  NOUVEAU(0): 	0f5054bfef80714f810081408180950f
+[    24.750] Information:  NOUVEAU(0): 	810f010101019a29a0d0518422305098
+[    24.750] Information:  NOUVEAU(0): 	360098ff1000001c000000fd00384b1e
+[    24.750] Information:  NOUVEAU(0): 	510e000a202020202020000000fc0053
+[    24.750] Information:  NOUVEAU(0): 	4d42313933304e570a202020000000ff
+[    24.750] Information:  NOUVEAU(0): 	00484d465a3230303633380a202001b1
+[    24.750] Information:  NOUVEAU(0): 	02031b61230907078301000067030c00
+[    24.750] Information:  NOUVEAU(0): 	2000802d43908402e2000f8c0ad08a20
+[    24.750] Information:  NOUVEAU(0): 	e02d10103e9600a05a00000000000000
+[    24.750] Information:  NOUVEAU(0): 	00000000000000000000000000000000
+[    24.750] Information:  NOUVEAU(0): 	00000000000000000000000000000000
+[    24.750] Information:  NOUVEAU(0): 	00000000000000000000000000000000
+[    24.750] Information:  NOUVEAU(0): 	00000000000000000000000000000000
+[    24.751] Information:  NOUVEAU(0): 	00000000000000000000000000000029
+[    24.751] Information:  NOUVEAU(0): Printing probed modes for output HDMI-1
+[    24.751] Information:  NOUVEAU(0): Modeline "1440x900"x59.9  106.50  1440 1520 1672 1904  900 903 909 934 -hsync +vsync (55.9 kHz eP)
+[    24.751] Information:  NOUVEAU(0): Modeline "1920x1080"x60.0  148.50  1920 2008 2052 2200  1080 1084 1089 1125 +hsync +vsync (67.5 kHz e)
+[    24.751] Information:  NOUVEAU(0): Modeline "1920x1080"x59.9  148.35  1920 2008 2052 2200  1080 1084 1089 1125 +hsync +vsync (67.4 kHz e)
+[    24.751] Information:  NOUVEAU(0): Modeline "1280x1024"x75.0  135.00  1280 1296 1440 1688  1024 1025 1028 1066 +hsync +vsync (80.0 kHz e)
+[    24.751] Information:  NOUVEAU(0): Modeline "1280x1024"x60.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+[    24.751] Information:  NOUVEAU(0): Modeline "1440x900"x75.0  136.75  1440 1536 1688 1936  900 903 909 942 -hsync +vsync (70.6 kHz e)
+[    24.751] Information:  NOUVEAU(0): Modeline "1280x960"x60.0  108.00  1280 1376 1488 1800  960 961 964 1000 +hsync +vsync (60.0 kHz e)
+[    24.751] Information:  NOUVEAU(0): Modeline "1280x800"x74.9  106.50  1280 1360 1488 1696  800 803 809 838 -hsync +vsync (62.8 kHz e)
+[    24.751] Information:  NOUVEAU(0): Modeline "1280x800"x59.9   71.00  1280 1328 1360 1440  800 803 809 823 +hsync -vsync (49.3 kHz e)
+[    24.751] Information:  NOUVEAU(0): Modeline "1152x864"x75.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz e)
+[    24.751] Information:  NOUVEAU(0): Modeline "1280x720"x60.0   74.25  1280 1390 1430 1650  720 725 730 750 +hsync +vsync (45.0 kHz e)
+[    24.751] Information:  NOUVEAU(0): Modeline "1280x720"x59.9   74.18  1280 1390 1430 1650  720 725 730 750 +hsync +vsync (45.0 kHz e)
+[    24.751] Information:  NOUVEAU(0): Modeline "1024x768"x75.0   78.75  1024 1040 1136 1312  768 769 772 800 +hsync +vsync (60.0 kHz e)
+[    24.751] Information:  NOUVEAU(0): Modeline "1024x768"x70.1   75.00  1024 1048 1184 1328  768 771 777 806 -hsync -vsync (56.5 kHz e)
+[    24.751] Information:  NOUVEAU(0): Modeline "1024x768"x60.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[    24.751] Information:  NOUVEAU(0): Modeline "832x624"x74.6   57.28  832 864 928 1152  624 625 628 667 -hsync -vsync (49.7 kHz e)
+[    24.751] Information:  NOUVEAU(0): Modeline "800x600"x72.2   50.00  800 856 976 1040  600 637 643 666 +hsync +vsync (48.1 kHz e)
+[    24.751] Information:  NOUVEAU(0): Modeline "800x600"x75.0   49.50  800 816 896 1056  600 601 604 625 +hsync +vsync (46.9 kHz e)
+[    24.751] Information:  NOUVEAU(0): Modeline "800x600"x60.3   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[    24.751] Information:  NOUVEAU(0): Modeline "800x600"x56.2   36.00  800 824 896 1024  600 601 603 625 +hsync +vsync (35.2 kHz e)
+[    24.751] Information:  NOUVEAU(0): Modeline "720x480"x60.0   27.03  720 736 798 858  480 489 495 525 -hsync -vsync (31.5 kHz e)
+[    24.751] Information:  NOUVEAU(0): Modeline "720x480"x59.9   27.00  720 736 798 858  480 489 495 525 -hsync -vsync (31.5 kHz e)
+[    24.751] Information:  NOUVEAU(0): Modeline "640x480"x75.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz e)
+[    24.751] Information:  NOUVEAU(0): Modeline "640x480"x72.8   31.50  640 664 704 832  480 489 492 520 -hsync -vsync (37.9 kHz e)
+[    24.751] Information:  NOUVEAU(0): Modeline "640x480"x66.7   30.24  640 704 768 864  480 483 486 525 -hsync -vsync (35.0 kHz e)
+[    24.751] Information:  NOUVEAU(0): Modeline "640x480"x60.0   25.20  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[    24.751] Information:  NOUVEAU(0): Modeline "640x480"x59.9   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[    24.751] Information:  NOUVEAU(0): Modeline "720x400"x70.1   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[    24.812] Information:  NOUVEAU(0): EDID for output DP-1
+[    24.812] Information:  NOUVEAU(0): Output DVI-D-1 disconnected
+[    24.812] Information:  NOUVEAU(0): Output HDMI-1 connected
+[    24.812] Information:  NOUVEAU(0): Output DP-1 disconnected
+[    24.812] Information:  NOUVEAU(0): Using exact sizes for initial modes
+[    24.812] Information:  NOUVEAU(0): Output HDMI-1 using initial mode 1440x900 +0+0
+[    24.812] Information:  NOUVEAU(0): Modeline "1440x900"x59.9  106.50  1440 1520 1672 1904  900 903 909 934 -hsync +vsync (55.9 kHz eP)
+[    24.812] Information:  NOUVEAU(0): Modeline "1920x1080"x60.0  148.50  1920 2008 2052 2200  1080 1084 1089 1125 +hsync +vsync (67.5 kHz e)
+[    24.812] Information:  NOUVEAU(0): Modeline "1920x1080"x59.9  148.35  1920 2008 2052 2200  1080 1084 1089 1125 +hsync +vsync (67.4 kHz e)
+[    24.812] Information:  NOUVEAU(0): Modeline "1280x1024"x75.0  135.00  1280 1296 1440 1688  1024 1025 1028 1066 +hsync +vsync (80.0 kHz e)
+[    24.812] Information:  NOUVEAU(0): Modeline "1280x1024"x60.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+[    24.812] Information:  NOUVEAU(0): Modeline "1440x900"x75.0  136.75  1440 1536 1688 1936  900 903 909 942 -hsync +vsync (70.6 kHz e)
+[    24.812] Information:  NOUVEAU(0): Modeline "1280x960"x60.0  108.00  1280 1376 1488 1800  960 961 964 1000 +hsync +vsync (60.0 kHz e)
+[    24.812] Information:  NOUVEAU(0): Modeline "1280x800"x74.9  106.50  1280 1360 1488 1696  800 803 809 838 -hsync +vsync (62.8 kHz e)
+[    24.812] Information:  NOUVEAU(0): Modeline "1280x800"x59.9   71.00  1280 1328 1360 1440  800 803 809 823 +hsync -vsync (49.3 kHz e)
+[    24.812] Information:  NOUVEAU(0): Modeline "1152x864"x75.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz e)
+[    24.812] Information:  NOUVEAU(0): Modeline "1280x720"x60.0   74.25  1280 1390 1430 1650  720 725 730 750 +hsync +vsync (45.0 kHz e)
+[    24.812] Information:  NOUVEAU(0): Modeline "1280x720"x59.9   74.18  1280 1390 1430 1650  720 725 730 750 +hsync +vsync (45.0 kHz e)
+[    24.812] Information:  NOUVEAU(0): Modeline "1024x768"x75.0   78.75  1024 1040 1136 1312  768 769 772 800 +hsync +vsync (60.0 kHz e)
+[    24.812] Information:  NOUVEAU(0): Modeline "1024x768"x70.1   75.00  1024 1048 1184 1328  768 771 777 806 -hsync -vsync (56.5 kHz e)
+[    24.812] Information:  NOUVEAU(0): Modeline "1024x768"x60.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[    24.812] Information:  NOUVEAU(0): Modeline "832x624"x74.6   57.28  832 864 928 1152  624 625 628 667 -hsync -vsync (49.7 kHz e)
+[    24.812] Information:  NOUVEAU(0): Modeline "800x600"x72.2   50.00  800 856 976 1040  600 637 643 666 +hsync +vsync (48.1 kHz e)
+[    24.812] Information:  NOUVEAU(0): Modeline "800x600"x75.0   49.50  800 816 896 1056  600 601 604 625 +hsync +vsync (46.9 kHz e)
+[    24.812] Information:  NOUVEAU(0): Modeline "800x600"x60.3   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[    24.812] Information:  NOUVEAU(0): Modeline "800x600"x56.2   36.00  800 824 896 1024  600 601 603 625 +hsync +vsync (35.2 kHz e)
+[    24.812] Information:  NOUVEAU(0): Modeline "720x480"x60.0   27.03  720 736 798 858  480 489 495 525 -hsync -vsync (31.5 kHz e)
+[    24.812] Information:  NOUVEAU(0): Modeline "720x480"x59.9   27.00  720 736 798 858  480 489 495 525 -hsync -vsync (31.5 kHz e)
+[    24.812] Information:  NOUVEAU(0): Modeline "640x480"x75.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz e)
+[    24.812] Information:  NOUVEAU(0): Modeline "640x480"x72.8   31.50  640 664 704 832  480 489 492 520 -hsync -vsync (37.9 kHz e)
+[    24.812] Information:  NOUVEAU(0): Modeline "640x480"x66.7   30.24  640 704 768 864  480 483 486 525 -hsync -vsync (35.0 kHz e)
+[    24.812] Information:  NOUVEAU(0): Modeline "640x480"x60.0   25.20  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[    24.812] Information:  NOUVEAU(0): Modeline "640x480"x59.9   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[    24.812] Information:  NOUVEAU(0): Modeline "720x400"x70.1   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[    24.812] Information:  Loading sub module "fb"
+[    24.812] Information:  LoadModule: "fb"
+[    24.812] Information:  Loading /usr/lib/xorg/modules/libfb.so
+[    24.812] Information:  Module fb: vendor="X.Org Foundation"
+[    24.812] Information:  Loading sub module "shadowfb"
+[    24.812] Information:  LoadModule: "shadowfb"
+[    24.812] Information:  Loading /usr/lib/xorg/modules/libshadowfb.so
+[    24.813] Information:  Module shadowfb: vendor="X.Org Foundation"
+[    24.813] Information:  UnloadModule: "modesetting"
+[    24.813] Information:  Unloading modesetting
+[    24.813] Information:  UnloadModule: "fbdev"
+[    24.813] Information:  Unloading fbdev
+[    24.813] Information:  UnloadSubModule: "fbdevhw"
+[    24.813] Information:  Unloading fbdevhw
+[    24.813] Information:  UnloadModule: "vesa"
+[    24.813] Information:  Unloading vesa
+[    24.814] Information:  NOUVEAU(0): Channel setup complete.
+[    24.815] Information:  NOUVEAU(0): [COPY] async initialised.
+[    24.911] Information:  NOUVEAU(0): Hardware support for Present enabled
+[    24.911] Information:  NOUVEAU(0): [DRI2] Setup complete
+[    24.911] Information:  NOUVEAU(0): [DRI2]   DRI driver: nouveau
+[    24.911] Information:  NOUVEAU(0): [DRI2]   VDPAU driver: nouveau
+[    24.911] Information:  Loading sub module "exa"
+[    24.911] Information:  LoadModule: "exa"
+[    24.911] Information:  Loading /usr/lib/xorg/modules/libexa.so
+[    24.911] Information:  Module exa: vendor="X.Org Foundation"
+[    24.911] Information:  EXA(0): Driver allocated offscreen pixmaps
+[    24.911] Information:  EXA(0): Driver registered support for the following operations:
+[    24.911] Information:          Solid
+[    24.911] Information:          Copy
+[    24.911] Information:          Composite (RENDER acceleration)
+[    24.911] Information:          UploadToScreen
+[    24.911] Information:          DownloadFromScreen
+[    24.911] Information:  NOUVEAU(0): [XvMC] Associated with Nouveau GeForce 8/9 Textured Video.
+[    24.911] Information:  NOUVEAU(0): [XvMC] Extension initialized.
+[    24.911] Information:  NOUVEAU(0): RandR 1.2 enabled, ignore the following RandR disabled message.
+[    25.044] Information:  SELinux: Disabled on system
+[    25.940] Information:  AIGLX: enabled GLX_MESA_copy_sub_buffer
+[    25.940] Information:  AIGLX: enabled GLX_ARB_create_context
+[    25.940] Information:  AIGLX: enabled GLX_ARB_create_context_profile
+[    25.940] Information:  AIGLX: enabled GLX_EXT_create_context_es{,2}_profile
+[    25.940] Information:  AIGLX: enabled GLX_INTEL_swap_event
+[    25.940] Information:  AIGLX: enabled GLX_SGI_swap_control
+[    25.940] Information:  AIGLX: enabled GLX_EXT_framebuffer_sRGB
+[    25.940] Information:  AIGLX: enabled GLX_ARB_fbconfig_float
+[    25.940] Information:  AIGLX: enabled GLX_EXT_fbconfig_packed_float
+[    25.941] Information:  AIGLX: GLX_EXT_texture_from_pixmap backed by buffer objects
+[    25.942] Information:  AIGLX: Loaded and initialized nouveau
+[    25.942] Information:  GLX: Initialized DRI2 GL provider for screen 0
+[    25.943] Information:  NOUVEAU(0): NVEnterVT is called.
+[    25.944] Information:  NOUVEAU(0): Setting screen physical size to 381 x 238
+[    26.227] Information:  config/udev: Adding input device Power Button (/dev/input/event1)
+[    26.227] Information:  LoadModule: "evdev"
+[    26.228] Information:  Loading /usr/lib/xorg/modules/input/evdev_drv.so
+[    26.252] Information:  Module evdev: vendor="X.Org Foundation"
+[    26.252] Information:  Using input driver 'evdev' for 'Power Button'
+[    26.252] Information:  evdev: Power Button: Configuring as keyboard
+[    26.252] Information:  XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+[    26.276] Information:  config/udev: Adding input device Power Button (/dev/input/event0)
+[    26.276] Information:  Using input driver 'evdev' for 'Power Button'
+[    26.276] Information:  evdev: Power Button: Configuring as keyboard
+[    26.276] Information:  XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 7)
+[    26.277] Information:  config/udev: Adding input device HDA NVidia HDMI/DP,pcm=3 (/dev/input/event10)
+[    26.277] Information:  No input driver specified, ignoring this device.
+[    26.277] Information:  This device may have been added with another device file.
+[    26.278] Information:  config/udev: Adding input device HDA NVidia HDMI/DP,pcm=7 (/dev/input/event11)
+[    26.278] Information:  No input driver specified, ignoring this device.
+[    26.278] Information:  This device may have been added with another device file.
+[    26.278] Information:  config/udev: Adding input device HDA NVidia HDMI/DP,pcm=8 (/dev/input/event12)
+[    26.278] Information:  No input driver specified, ignoring this device.
+[    26.278] Information:  This device may have been added with another device file.
+[    26.278] Information:  config/udev: Adding input device Microsoft Microsoft® 2.4GHz Transceiver v7.0 (/dev/input/event2)
+[    26.278] Information:  Using input driver 'evdev' for 'Microsoft Microsoft® 2.4GHz Transceiver v7.0'
+[    26.279] Information:  evdev: Microsoft Microsoft® 2.4GHz Transceiver v7.0: Configuring as keyboard
+[    26.279] Information:  XINPUT: Adding extended input device "Microsoft Microsoft® 2.4GHz Transceiver v7.0" (type: KEYBOARD, id 8)
+[    26.279] Information:  config/udev: Adding input device Microsoft Microsoft® 2.4GHz Transceiver v7.0 (/dev/input/event3)
+[    26.279] Information:  Using input driver 'evdev' for 'Microsoft Microsoft® 2.4GHz Transceiver v7.0'
+[    26.280] Information:  evdev: Microsoft Microsoft® 2.4GHz Transceiver v7.0: Forcing absolute x/y axes to exist.
+[    26.280] Information:  evdev: Microsoft Microsoft® 2.4GHz Transceiver v7.0: Configuring as mouse
+[    26.280] Information:  evdev: Microsoft Microsoft® 2.4GHz Transceiver v7.0: Configuring as keyboard
+[    26.280] Information:  evdev: Microsoft Microsoft® 2.4GHz Transceiver v7.0: Adding scrollwheel support
+[    26.280] Information:  XINPUT: Adding extended input device "Microsoft Microsoft® 2.4GHz Transceiver v7.0" (type: KEYBOARD, id 9)
+[    26.280] Information:  evdev: Microsoft Microsoft® 2.4GHz Transceiver v7.0: initialized for relative axes.
+[    26.280] Information:  config/udev: Adding input device Microsoft Microsoft® 2.4GHz Transceiver v7.0 (/dev/input/mouse0)
+[    26.281] Information:  No input driver specified, ignoring this device.
+[    26.281] Information:  This device may have been added with another device file.
+[    26.281] Information:  config/udev: Adding input device Microsoft Microsoft® 2.4GHz Transceiver v7.0 (/dev/input/event4)
+[    26.281] Information:  Using input driver 'evdev' for 'Microsoft Microsoft® 2.4GHz Transceiver v7.0'
+[    26.281] Information:  evdev: Microsoft Microsoft® 2.4GHz Transceiver v7.0: Forcing relative x/y axes to exist.
+[    26.281] Information:  evdev: Microsoft Microsoft® 2.4GHz Transceiver v7.0: Forcing absolute x/y axes to exist.
+[    26.281] Information:  evdev: Microsoft Microsoft® 2.4GHz Transceiver v7.0: Configuring as mouse
+[    26.281] Information:  evdev: Microsoft Microsoft® 2.4GHz Transceiver v7.0: Configuring as keyboard
+[    26.281] Information:  evdev: Microsoft Microsoft® 2.4GHz Transceiver v7.0: Adding scrollwheel support
+[    26.281] Information:  XINPUT: Adding extended input device "Microsoft Microsoft® 2.4GHz Transceiver v7.0" (type: KEYBOARD, id 10)
+[    26.281] Information:  evdev: Microsoft Microsoft® 2.4GHz Transceiver v7.0: initialized for relative axes.
+[    26.282] Information:  config/udev: Adding input device HDA ATI SB Front Headphone (/dev/input/event9)
+[    26.282] Information:  No input driver specified, ignoring this device.
+[    26.282] Information:  This device may have been added with another device file.
+[    26.282] Information:  config/udev: Adding input device HDA ATI SB Front Mic (/dev/input/event5)
+[    26.282] Information:  No input driver specified, ignoring this device.
+[    26.282] Information:  This device may have been added with another device file.
+[    26.283] Information:  config/udev: Adding input device HDA ATI SB Rear Mic (/dev/input/event6)
+[    26.283] Information:  No input driver specified, ignoring this device.
+[    26.283] Information:  This device may have been added with another device file.
+[    26.283] Information:  config/udev: Adding input device HDA ATI SB Line (/dev/input/event7)
+[    26.283] Information:  No input driver specified, ignoring this device.
+[    26.283] Information:  This device may have been added with another device file.
+[    26.283] Information:  config/udev: Adding input device HDA ATI SB Line Out (/dev/input/event8)
+[    26.283] Information:  No input driver specified, ignoring this device.
+[    26.283] Information:  This device may have been added with another device file.
+[    30.334] Information:  NOUVEAU(0): EDID vendor "SAM", prod id 1587
+[    30.334] Information:  NOUVEAU(0): DDCModeFromDetailedTiming: 720x480 Warning: We only handle separate sync.
+[    30.334] Information:  NOUVEAU(0): Using EDID range info for horizontal sync
+[    30.334] Information:  NOUVEAU(0): Using EDID range info for vertical refresh
+[    30.334] Information:  NOUVEAU(0): Printing DDC gathered Modelines:
+[    30.334] Information:  NOUVEAU(0): Modeline "1440x900"x0.0  106.50  1440 1520 1672 1904  900 903 909 934 -hsync +vsync (55.9 kHz eP)
+[    30.334] Information:  NOUVEAU(0): Modeline "720x480"x0.0   27.00  720 736 798 858  480 489 495 525 -hsync -vsync (31.5 kHz e)
+[    30.334] Information:  NOUVEAU(0): Modeline "800x600"x0.0   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[    30.334] Information:  NOUVEAU(0): Modeline "800x600"x0.0   36.00  800 824 896 1024  600 601 603 625 +hsync +vsync (35.2 kHz e)
+[    30.334] Information:  NOUVEAU(0): Modeline "640x480"x0.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz e)
+[    30.334] Information:  NOUVEAU(0): Modeline "640x480"x0.0   31.50  640 664 704 832  480 489 492 520 -hsync -vsync (37.9 kHz e)
+[    30.334] Information:  NOUVEAU(0): Modeline "640x480"x0.0   30.24  640 704 768 864  480 483 486 525 -hsync -vsync (35.0 kHz e)
+[    30.334] Information:  NOUVEAU(0): Modeline "640x480"x0.0   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[    30.334] Information:  NOUVEAU(0): Modeline "720x400"x0.0   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[    30.334] Information:  NOUVEAU(0): Modeline "1280x1024"x0.0  135.00  1280 1296 1440 1688  1024 1025 1028 1066 +hsync +vsync (80.0 kHz e)
+[    30.334] Information:  NOUVEAU(0): Modeline "1024x768"x0.0   78.75  1024 1040 1136 1312  768 769 772 800 +hsync +vsync (60.0 kHz e)
+[    30.334] Information:  NOUVEAU(0): Modeline "1024x768"x0.0   75.00  1024 1048 1184 1328  768 771 777 806 -hsync -vsync (56.5 kHz e)
+[    30.334] Information:  NOUVEAU(0): Modeline "1024x768"x0.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[    30.334] Information:  NOUVEAU(0): Modeline "832x624"x0.0   57.28  832 864 928 1152  624 625 628 667 -hsync -vsync (49.7 kHz e)
+[    30.334] Information:  NOUVEAU(0): Modeline "800x600"x0.0   49.50  800 816 896 1056  600 601 604 625 +hsync +vsync (46.9 kHz e)
+[    30.334] Information:  NOUVEAU(0): Modeline "800x600"x0.0   50.00  800 856 976 1040  600 637 643 666 +hsync +vsync (48.1 kHz e)
+[    30.334] Information:  NOUVEAU(0): Modeline "1152x864"x0.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz e)
+[    30.334] Information:  NOUVEAU(0): Modeline "1280x800"x0.0   71.00  1280 1328 1360 1440  800 803 809 823 +hsync -vsync (49.3 kHz e)
+[    30.334] Information:  NOUVEAU(0): Modeline "1280x960"x0.0  108.00  1280 1376 1488 1800  960 961 964 1000 +hsync +vsync (60.0 kHz e)
+[    30.334] Information:  NOUVEAU(0): Modeline "1280x1024"x0.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+[    30.334] Information:  NOUVEAU(0): Modeline "1440x900"x0.0  136.75  1440 1536 1688 1936  900 903 909 942 -hsync +vsync (70.6 kHz e)
+[    30.334] Information:  NOUVEAU(0): Modeline "1280x800"x0.0  106.50  1280 1360 1488 1696  800 803 809 838 -hsync +vsync (62.8 kHz e)
+[    30.334] Information:  NOUVEAU(0): Modeline "1920x1080"x0.0  148.50  1920 2008 2052 2200  1080 1084 1089 1125 +hsync +vsync (67.5 kHz e)
+[    30.334] Information:  NOUVEAU(0): Modeline "1280x720"x0.0   74.25  1280 1390 1430 1650  720 725 730 750 +hsync +vsync (45.0 kHz e)
+[    31.646] Information:  NOUVEAU(0): EDID vendor "SAM", prod id 1587
+[    31.646] Information:  NOUVEAU(0): DDCModeFromDetailedTiming: 720x480 Warning: We only handle separate sync.
+[    31.646] Information:  NOUVEAU(0): Using hsync ranges from config file
+[    31.646] Information:  NOUVEAU(0): Using vrefresh ranges from config file
+[    31.646] Information:  NOUVEAU(0): Printing DDC gathered Modelines:
+[    31.646] Information:  NOUVEAU(0): Modeline "1440x900"x0.0  106.50  1440 1520 1672 1904  900 903 909 934 -hsync +vsync (55.9 kHz eP)
+[    31.646] Information:  NOUVEAU(0): Modeline "720x480"x0.0   27.00  720 736 798 858  480 489 495 525 -hsync -vsync (31.5 kHz e)
+[    31.646] Information:  NOUVEAU(0): Modeline "800x600"x0.0   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[    31.646] Information:  NOUVEAU(0): Modeline "800x600"x0.0   36.00  800 824 896 1024  600 601 603 625 +hsync +vsync (35.2 kHz e)
+[    31.646] Information:  NOUVEAU(0): Modeline "640x480"x0.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz e)
+[    31.646] Information:  NOUVEAU(0): Modeline "640x480"x0.0   31.50  640 664 704 832  480 489 492 520 -hsync -vsync (37.9 kHz e)
+[    31.646] Information:  NOUVEAU(0): Modeline "640x480"x0.0   30.24  640 704 768 864  480 483 486 525 -hsync -vsync (35.0 kHz e)
+[    31.646] Information:  NOUVEAU(0): Modeline "640x480"x0.0   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[    31.646] Information:  NOUVEAU(0): Modeline "720x400"x0.0   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[    31.646] Information:  NOUVEAU(0): Modeline "1280x1024"x0.0  135.00  1280 1296 1440 1688  1024 1025 1028 1066 +hsync +vsync (80.0 kHz e)
+[    31.646] Information:  NOUVEAU(0): Modeline "1024x768"x0.0   78.75  1024 1040 1136 1312  768 769 772 800 +hsync +vsync (60.0 kHz e)
+[    31.646] Information:  NOUVEAU(0): Modeline "1024x768"x0.0   75.00  1024 1048 1184 1328  768 771 777 806 -hsync -vsync (56.5 kHz e)
+[    31.646] Information:  NOUVEAU(0): Modeline "1024x768"x0.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[    31.646] Information:  NOUVEAU(0): Modeline "832x624"x0.0   57.28  832 864 928 1152  624 625 628 667 -hsync -vsync (49.7 kHz e)
+[    31.646] Information:  NOUVEAU(0): Modeline "800x600"x0.0   49.50  800 816 896 1056  600 601 604 625 +hsync +vsync (46.9 kHz e)
+[    31.646] Information:  NOUVEAU(0): Modeline "800x600"x0.0   50.00  800 856 976 1040  600 637 643 666 +hsync +vsync (48.1 kHz e)
+[    31.646] Information:  NOUVEAU(0): Modeline "1152x864"x0.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz e)
+[    31.646] Information:  NOUVEAU(0): Modeline "1280x800"x0.0   71.00  1280 1328 1360 1440  800 803 809 823 +hsync -vsync (49.3 kHz e)
+[    31.646] Information:  NOUVEAU(0): Modeline "1280x960"x0.0  108.00  1280 1376 1488 1800  960 961 964 1000 +hsync +vsync (60.0 kHz e)
+[    31.646] Information:  NOUVEAU(0): Modeline "1280x1024"x0.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+[    31.646] Information:  NOUVEAU(0): Modeline "1440x900"x0.0  136.75  1440 1536 1688 1936  900 903 909 942 -hsync +vsync (70.6 kHz e)
+[    31.646] Information:  NOUVEAU(0): Modeline "1280x800"x0.0  106.50  1280 1360 1488 1696  800 803 809 838 -hsync +vsync (62.8 kHz e)
+[    31.646] Information:  NOUVEAU(0): Modeline "1920x1080"x0.0  148.50  1920 2008 2052 2200  1080 1084 1089 1125 +hsync +vsync (67.5 kHz e)
+[    31.646] Information:  NOUVEAU(0): Modeline "1280x720"x0.0   74.25  1280 1390 1430 1650  720 725 730 750 +hsync +vsync (45.0 kHz e)
+[    49.838] Information:  NOUVEAU(0): EDID vendor "SAM", prod id 1587
+[    49.838] Information:  NOUVEAU(0): DDCModeFromDetailedTiming: 720x480 Warning: We only handle separate sync.
+[    49.838] Information:  NOUVEAU(0): Using hsync ranges from config file
+[    49.838] Information:  NOUVEAU(0): Using vrefresh ranges from config file
+[    49.838] Information:  NOUVEAU(0): Printing DDC gathered Modelines:
+[    49.838] Information:  NOUVEAU(0): Modeline "1440x900"x0.0  106.50  1440 1520 1672 1904  900 903 909 934 -hsync +vsync (55.9 kHz eP)
+[    49.838] Information:  NOUVEAU(0): Modeline "720x480"x0.0   27.00  720 736 798 858  480 489 495 525 -hsync -vsync (31.5 kHz e)
+[    49.838] Information:  NOUVEAU(0): Modeline "800x600"x0.0   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[    49.838] Information:  NOUVEAU(0): Modeline "800x600"x0.0   36.00  800 824 896 1024  600 601 603 625 +hsync +vsync (35.2 kHz e)
+[    49.838] Information:  NOUVEAU(0): Modeline "640x480"x0.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz e)
+[    49.838] Information:  NOUVEAU(0): Modeline "640x480"x0.0   31.50  640 664 704 832  480 489 492 520 -hsync -vsync (37.9 kHz e)
+[    49.838] Information:  NOUVEAU(0): Modeline "640x480"x0.0   30.24  640 704 768 864  480 483 486 525 -hsync -vsync (35.0 kHz e)
+[    49.838] Information:  NOUVEAU(0): Modeline "640x480"x0.0   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[    49.838] Information:  NOUVEAU(0): Modeline "720x400"x0.0   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[    49.838] Information:  NOUVEAU(0): Modeline "1280x1024"x0.0  135.00  1280 1296 1440 1688  1024 1025 1028 1066 +hsync +vsync (80.0 kHz e)
+[    49.838] Information:  NOUVEAU(0): Modeline "1024x768"x0.0   78.75  1024 1040 1136 1312  768 769 772 800 +hsync +vsync (60.0 kHz e)
+[    49.839] Information:  NOUVEAU(0): Modeline "1024x768"x0.0   75.00  1024 1048 1184 1328  768 771 777 806 -hsync -vsync (56.5 kHz e)
+[    49.839] Information:  NOUVEAU(0): Modeline "1024x768"x0.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[    49.839] Information:  NOUVEAU(0): Modeline "832x624"x0.0   57.28  832 864 928 1152  624 625 628 667 -hsync -vsync (49.7 kHz e)
+[    49.839] Information:  NOUVEAU(0): Modeline "800x600"x0.0   49.50  800 816 896 1056  600 601 604 625 +hsync +vsync (46.9 kHz e)
+[    49.839] Information:  NOUVEAU(0): Modeline "800x600"x0.0   50.00  800 856 976 1040  600 637 643 666 +hsync +vsync (48.1 kHz e)
+[    49.839] Information:  NOUVEAU(0): Modeline "1152x864"x0.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz e)
+[    49.839] Information:  NOUVEAU(0): Modeline "1280x800"x0.0   71.00  1280 1328 1360 1440  800 803 809 823 +hsync -vsync (49.3 kHz e)
+[    49.839] Information:  NOUVEAU(0): Modeline "1280x960"x0.0  108.00  1280 1376 1488 1800  960 961 964 1000 +hsync +vsync (60.0 kHz e)
+[    49.839] Information:  NOUVEAU(0): Modeline "1280x1024"x0.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+[    49.839] Information:  NOUVEAU(0): Modeline "1440x900"x0.0  136.75  1440 1536 1688 1936  900 903 909 942 -hsync +vsync (70.6 kHz e)
+[    49.839] Information:  NOUVEAU(0): Modeline "1280x800"x0.0  106.50  1280 1360 1488 1696  800 803 809 838 -hsync +vsync (62.8 kHz e)
+[    49.839] Information:  NOUVEAU(0): Modeline "1920x1080"x0.0  148.50  1920 2008 2052 2200  1080 1084 1089 1125 +hsync +vsync (67.5 kHz e)
+[    49.839] Information:  NOUVEAU(0): Modeline "1280x720"x0.0   74.25  1280 1390 1430 1650  720 725 730 750 +hsync +vsync (45.0 kHz e)
+[    52.694] Information:  NOUVEAU(0): EDID vendor "SAM", prod id 1587
+[    52.694] Information:  NOUVEAU(0): DDCModeFromDetailedTiming: 720x480 Warning: We only handle separate sync.
+[    52.694] Information:  NOUVEAU(0): Using hsync ranges from config file
+[    52.694] Information:  NOUVEAU(0): Using vrefresh ranges from config file
+[    52.694] Information:  NOUVEAU(0): Printing DDC gathered Modelines:
+[    52.694] Information:  NOUVEAU(0): Modeline "1440x900"x0.0  106.50  1440 1520 1672 1904  900 903 909 934 -hsync +vsync (55.9 kHz eP)
+[    52.694] Information:  NOUVEAU(0): Modeline "720x480"x0.0   27.00  720 736 798 858  480 489 495 525 -hsync -vsync (31.5 kHz e)
+[    52.694] Information:  NOUVEAU(0): Modeline "800x600"x0.0   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[    52.694] Information:  NOUVEAU(0): Modeline "800x600"x0.0   36.00  800 824 896 1024  600 601 603 625 +hsync +vsync (35.2 kHz e)
+[    52.694] Information:  NOUVEAU(0): Modeline "640x480"x0.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz e)
+[    52.694] Information:  NOUVEAU(0): Modeline "640x480"x0.0   31.50  640 664 704 832  480 489 492 520 -hsync -vsync (37.9 kHz e)
+[    52.694] Information:  NOUVEAU(0): Modeline "640x480"x0.0   30.24  640 704 768 864  480 483 486 525 -hsync -vsync (35.0 kHz e)
+[    52.695] Information:  NOUVEAU(0): Modeline "640x480"x0.0   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[    52.695] Information:  NOUVEAU(0): Modeline "720x400"x0.0   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[    52.695] Information:  NOUVEAU(0): Modeline "1280x1024"x0.0  135.00  1280 1296 1440 1688  1024 1025 1028 1066 +hsync +vsync (80.0 kHz e)
+[    52.695] Information:  NOUVEAU(0): Modeline "1024x768"x0.0   78.75  1024 1040 1136 1312  768 769 772 800 +hsync +vsync (60.0 kHz e)
+[    52.695] Information:  NOUVEAU(0): Modeline "1024x768"x0.0   75.00  1024 1048 1184 1328  768 771 777 806 -hsync -vsync (56.5 kHz e)
+[    52.695] Information:  NOUVEAU(0): Modeline "1024x768"x0.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[    52.695] Information:  NOUVEAU(0): Modeline "832x624"x0.0   57.28  832 864 928 1152  624 625 628 667 -hsync -vsync (49.7 kHz e)
+[    52.695] Information:  NOUVEAU(0): Modeline "800x600"x0.0   49.50  800 816 896 1056  600 601 604 625 +hsync +vsync (46.9 kHz e)
+[    52.695] Information:  NOUVEAU(0): Modeline "800x600"x0.0   50.00  800 856 976 1040  600 637 643 666 +hsync +vsync (48.1 kHz e)
+[    52.695] Information:  NOUVEAU(0): Modeline "1152x864"x0.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz e)
+[    52.695] Information:  NOUVEAU(0): Modeline "1280x800"x0.0   71.00  1280 1328 1360 1440  800 803 809 823 +hsync -vsync (49.3 kHz e)
+[    52.695] Information:  NOUVEAU(0): Modeline "1280x960"x0.0  108.00  1280 1376 1488 1800  960 961 964 1000 +hsync +vsync (60.0 kHz e)
+[    52.695] Information:  NOUVEAU(0): Modeline "1280x1024"x0.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+[    52.695] Information:  NOUVEAU(0): Modeline "1440x900"x0.0  136.75  1440 1536 1688 1936  900 903 909 942 -hsync +vsync (70.6 kHz e)
+[    52.695] Information:  NOUVEAU(0): Modeline "1280x800"x0.0  106.50  1280 1360 1488 1696  800 803 809 838 -hsync +vsync (62.8 kHz e)
+[    52.695] Information:  NOUVEAU(0): Modeline "1920x1080"x0.0  148.50  1920 2008 2052 2200  1080 1084 1089 1125 +hsync +vsync (67.5 kHz e)
+[    52.695] Information:  NOUVEAU(0): Modeline "1280x720"x0.0   74.25  1280 1390 1430 1650  720 725 730 750 +hsync +vsync (45.0 kHz e)
+[    53.274] Information:  NOUVEAU(0): EDID vendor "SAM", prod id 1587
+[    53.274] Information:  NOUVEAU(0): DDCModeFromDetailedTiming: 720x480 Warning: We only handle separate sync.
+[    53.274] Information:  NOUVEAU(0): Using hsync ranges from config file
+[    53.274] Information:  NOUVEAU(0): Using vrefresh ranges from config file
+[    53.274] Information:  NOUVEAU(0): Printing DDC gathered Modelines:
+[    53.274] Information:  NOUVEAU(0): Modeline "1440x900"x0.0  106.50  1440 1520 1672 1904  900 903 909 934 -hsync +vsync (55.9 kHz eP)
+[    53.274] Information:  NOUVEAU(0): Modeline "720x480"x0.0   27.00  720 736 798 858  480 489 495 525 -hsync -vsync (31.5 kHz e)
+[    53.274] Information:  NOUVEAU(0): Modeline "800x600"x0.0   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[    53.274] Information:  NOUVEAU(0): Modeline "800x600"x0.0   36.00  800 824 896 1024  600 601 603 625 +hsync +vsync (35.2 kHz e)
+[    53.274] Information:  NOUVEAU(0): Modeline "640x480"x0.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz e)
+[    53.274] Information:  NOUVEAU(0): Modeline "640x480"x0.0   31.50  640 664 704 832  480 489 492 520 -hsync -vsync (37.9 kHz e)
+[    53.274] Information:  NOUVEAU(0): Modeline "640x480"x0.0   30.24  640 704 768 864  480 483 486 525 -hsync -vsync (35.0 kHz e)
+[    53.274] Information:  NOUVEAU(0): Modeline "640x480"x0.0   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[    53.274] Information:  NOUVEAU(0): Modeline "720x400"x0.0   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[    53.274] Information:  NOUVEAU(0): Modeline "1280x1024"x0.0  135.00  1280 1296 1440 1688  1024 1025 1028 1066 +hsync +vsync (80.0 kHz e)
+[    53.274] Information:  NOUVEAU(0): Modeline "1024x768"x0.0   78.75  1024 1040 1136 1312  768 769 772 800 +hsync +vsync (60.0 kHz e)
+[    53.274] Information:  NOUVEAU(0): Modeline "1024x768"x0.0   75.00  1024 1048 1184 1328  768 771 777 806 -hsync -vsync (56.5 kHz e)
+[    53.274] Information:  NOUVEAU(0): Modeline "1024x768"x0.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[    53.274] Information:  NOUVEAU(0): Modeline "832x624"x0.0   57.28  832 864 928 1152  624 625 628 667 -hsync -vsync (49.7 kHz e)
+[    53.274] Information:  NOUVEAU(0): Modeline "800x600"x0.0   49.50  800 816 896 1056  600 601 604 625 +hsync +vsync (46.9 kHz e)
+[    53.274] Information:  NOUVEAU(0): Modeline "800x600"x0.0   50.00  800 856 976 1040  600 637 643 666 +hsync +vsync (48.1 kHz e)
+[    53.274] Information:  NOUVEAU(0): Modeline "1152x864"x0.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz e)
+[    53.274] Information:  NOUVEAU(0): Modeline "1280x800"x0.0   71.00  1280 1328 1360 1440  800 803 809 823 +hsync -vsync (49.3 kHz e)
+[    53.274] Information:  NOUVEAU(0): Modeline "1280x960"x0.0  108.00  1280 1376 1488 1800  960 961 964 1000 +hsync +vsync (60.0 kHz e)
+[    53.274] Information:  NOUVEAU(0): Modeline "1280x1024"x0.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+[    53.274] Information:  NOUVEAU(0): Modeline "1440x900"x0.0  136.75  1440 1536 1688 1936  900 903 909 942 -hsync +vsync (70.6 kHz e)
+[    53.274] Information:  NOUVEAU(0): Modeline "1280x800"x0.0  106.50  1280 1360 1488 1696  800 803 809 838 -hsync +vsync (62.8 kHz e)
+[    53.274] Information:  NOUVEAU(0): Modeline "1920x1080"x0.0  148.50  1920 2008 2052 2200  1080 1084 1089 1125 +hsync +vsync (67.5 kHz e)
+[    53.274] Information:  NOUVEAU(0): Modeline "1280x720"x0.0   74.25  1280 1390 1430 1650  720 725 730 750 +hsync +vsync (45.0 kHz e)
+[    53.409] Information:  NOUVEAU(0): EDID vendor "SAM", prod id 1587
+[    53.409] Information:  NOUVEAU(0): DDCModeFromDetailedTiming: 720x480 Warning: We only handle separate sync.
+[    53.409] Information:  NOUVEAU(0): Using hsync ranges from config file
+[    53.409] Information:  NOUVEAU(0): Using vrefresh ranges from config file
+[    53.409] Information:  NOUVEAU(0): Printing DDC gathered Modelines:
+[    53.409] Information:  NOUVEAU(0): Modeline "1440x900"x0.0  106.50  1440 1520 1672 1904  900 903 909 934 -hsync +vsync (55.9 kHz eP)
+[    53.409] Information:  NOUVEAU(0): Modeline "720x480"x0.0   27.00  720 736 798 858  480 489 495 525 -hsync -vsync (31.5 kHz e)
+[    53.409] Information:  NOUVEAU(0): Modeline "800x600"x0.0   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[    53.409] Information:  NOUVEAU(0): Modeline "800x600"x0.0   36.00  800 824 896 1024  600 601 603 625 +hsync +vsync (35.2 kHz e)
+[    53.409] Information:  NOUVEAU(0): Modeline "640x480"x0.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz e)
+[    53.409] Information:  NOUVEAU(0): Modeline "640x480"x0.0   31.50  640 664 704 832  480 489 492 520 -hsync -vsync (37.9 kHz e)
+[    53.409] Information:  NOUVEAU(0): Modeline "640x480"x0.0   30.24  640 704 768 864  480 483 486 525 -hsync -vsync (35.0 kHz e)
+[    53.409] Information:  NOUVEAU(0): Modeline "640x480"x0.0   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[    53.409] Information:  NOUVEAU(0): Modeline "720x400"x0.0   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[    53.409] Information:  NOUVEAU(0): Modeline "1280x1024"x0.0  135.00  1280 1296 1440 1688  1024 1025 1028 1066 +hsync +vsync (80.0 kHz e)
+[    53.409] Information:  NOUVEAU(0): Modeline "1024x768"x0.0   78.75  1024 1040 1136 1312  768 769 772 800 +hsync +vsync (60.0 kHz e)
+[    53.409] Information:  NOUVEAU(0): Modeline "1024x768"x0.0   75.00  1024 1048 1184 1328  768 771 777 806 -hsync -vsync (56.5 kHz e)
+[    53.409] Information:  NOUVEAU(0): Modeline "1024x768"x0.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[    53.409] Information:  NOUVEAU(0): Modeline "832x624"x0.0   57.28  832 864 928 1152  624 625 628 667 -hsync -vsync (49.7 kHz e)
+[    53.409] Information:  NOUVEAU(0): Modeline "800x600"x0.0   49.50  800 816 896 1056  600 601 604 625 +hsync +vsync (46.9 kHz e)
+[    53.409] Information:  NOUVEAU(0): Modeline "800x600"x0.0   50.00  800 856 976 1040  600 637 643 666 +hsync +vsync (48.1 kHz e)
+[    53.409] Information:  NOUVEAU(0): Modeline "1152x864"x0.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz e)
+[    53.409] Information:  NOUVEAU(0): Modeline "1280x800"x0.0   71.00  1280 1328 1360 1440  800 803 809 823 +hsync -vsync (49.3 kHz e)
+[    53.409] Information:  NOUVEAU(0): Modeline "1280x960"x0.0  108.00  1280 1376 1488 1800  960 961 964 1000 +hsync +vsync (60.0 kHz e)
+[    53.409] Information:  NOUVEAU(0): Modeline "1280x1024"x0.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+[    53.410] Information:  NOUVEAU(0): Modeline "1440x900"x0.0  136.75  1440 1536 1688 1936  900 903 909 942 -hsync +vsync (70.6 kHz e)
+[    53.410] Information:  NOUVEAU(0): Modeline "1280x800"x0.0  106.50  1280 1360 1488 1696  800 803 809 838 -hsync +vsync (62.8 kHz e)
+[    53.410] Information:  NOUVEAU(0): Modeline "1920x1080"x0.0  148.50  1920 2008 2052 2200  1080 1084 1089 1125 +hsync +vsync (67.5 kHz e)
+[    53.410] Information:  NOUVEAU(0): Modeline "1280x720"x0.0   74.25  1280 1390 1430 1650  720 725 730 750 +hsync +vsync (45.0 kHz e)
+[    61.937] Information:  NOUVEAU(0): EDID vendor "SAM", prod id 1587
+[    61.937] Information:  NOUVEAU(0): DDCModeFromDetailedTiming: 720x480 Warning: We only handle separate sync.
+[    61.937] Information:  NOUVEAU(0): Using hsync ranges from config file
+[    61.937] Information:  NOUVEAU(0): Using vrefresh ranges from config file
+[    61.937] Information:  NOUVEAU(0): Printing DDC gathered Modelines:
+[    61.937] Information:  NOUVEAU(0): Modeline "1440x900"x0.0  106.50  1440 1520 1672 1904  900 903 909 934 -hsync +vsync (55.9 kHz eP)
+[    61.937] Information:  NOUVEAU(0): Modeline "720x480"x0.0   27.00  720 736 798 858  480 489 495 525 -hsync -vsync (31.5 kHz e)
+[    61.937] Information:  NOUVEAU(0): Modeline "800x600"x0.0   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[    61.937] Information:  NOUVEAU(0): Modeline "800x600"x0.0   36.00  800 824 896 1024  600 601 603 625 +hsync +vsync (35.2 kHz e)
+[    61.937] Information:  NOUVEAU(0): Modeline "640x480"x0.0   31.50  640 656 720 840  480 481 484 500 -hsync -vsync (37.5 kHz e)
+[    61.937] Information:  NOUVEAU(0): Modeline "640x480"x0.0   31.50  640 664 704 832  480 489 492 520 -hsync -vsync (37.9 kHz e)
+[    61.937] Information:  NOUVEAU(0): Modeline "640x480"x0.0   30.24  640 704 768 864  480 483 486 525 -hsync -vsync (35.0 kHz e)
+[    61.937] Information:  NOUVEAU(0): Modeline "640x480"x0.0   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[    61.937] Information:  NOUVEAU(0): Modeline "720x400"x0.0   28.32  720 738 846 900  400 412 414 449 -hsync +vsync (31.5 kHz e)
+[    61.937] Information:  NOUVEAU(0): Modeline "1280x1024"x0.0  135.00  1280 1296 1440 1688  1024 1025 1028 1066 +hsync +vsync (80.0 kHz e)
+[    61.937] Information:  NOUVEAU(0): Modeline "1024x768"x0.0   78.75  1024 1040 1136 1312  768 769 772 800 +hsync +vsync (60.0 kHz e)
+[    61.937] Information:  NOUVEAU(0): Modeline "1024x768"x0.0   75.00  1024 1048 1184 1328  768 771 777 806 -hsync -vsync (56.5 kHz e)
+[    61.937] Information:  NOUVEAU(0): Modeline "1024x768"x0.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[    61.937] Information:  NOUVEAU(0): Modeline "832x624"x0.0   57.28  832 864 928 1152  624 625 628 667 -hsync -vsync (49.7 kHz e)
+[    61.937] Information:  NOUVEAU(0): Modeline "800x600"x0.0   49.50  800 816 896 1056  600 601 604 625 +hsync +vsync (46.9 kHz e)
+[    61.937] Information:  NOUVEAU(0): Modeline "800x600"x0.0   50.00  800 856 976 1040  600 637 643 666 +hsync +vsync (48.1 kHz e)
+[    61.937] Information:  NOUVEAU(0): Modeline "1152x864"x0.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz e)
+[    61.937] Information:  NOUVEAU(0): Modeline "1280x800"x0.0   71.00  1280 1328 1360 1440  800 803 809 823 +hsync -vsync (49.3 kHz e)
+[    61.937] Information:  NOUVEAU(0): Modeline "1280x960"x0.0  108.00  1280 1376 1488 1800  960 961 964 1000 +hsync +vsync (60.0 kHz e)
+[    61.937] Information:  NOUVEAU(0): Modeline "1280x1024"x0.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+[    61.937] Information:  NOUVEAU(0): Modeline "1440x900"x0.0  136.75  1440 1536 1688 1936  900 903 909 942 -hsync +vsync (70.6 kHz e)
+[    61.937] Information:  NOUVEAU(0): Modeline "1280x800"x0.0  106.50  1280 1360 1488 1696  800 803 809 838 -hsync +vsync (62.8 kHz e)
+[    61.937] Information:  NOUVEAU(0): Modeline "1920x1080"x0.0  148.50  1920 2008 2052 2200  1080 1084 1089 1125 +hsync +vsync (67.5 kHz e)
+[    61.938] Information:  NOUVEAU(0): Modeline "1280x720"x0.0   74.25  1280 1390 1430 1650  720 725 730 750 +hsync +vsync (45.0 kHz e)
+[    75.996] Information:  AIGLX: Suspending AIGLX clients for VT switch
+[    75.996] Information:  NOUVEAU(0): NVLeaveVT is called.
+[ 10569.824] Information:  evdev: Microsoft Microsoft® 2.4GHz Transceiver v7.0: Close
+[ 10570.327] Information:  UnloadModule: "evdev"
+[ 10570.328] Information:  evdev: Microsoft Microsoft® 2.4GHz Transceiver v7.0: Close
+[ 10570.328] Information:  UnloadModule: "evdev"
+[ 10570.328] Information:  evdev: Microsoft Microsoft® 2.4GHz Transceiver v7.0: Close
+[ 10570.328] Information:  UnloadModule: "evdev"
+[ 10570.328] Information:  evdev: Power Button: Close
+[ 10570.328] Information:  UnloadModule: "evdev"
+[ 10570.328] Information:  evdev: Power Button: Close
+[ 10570.328] Information:  UnloadModule: "evdev"
+[ 10573.042] Information:  Server terminated successfully (0). Closing log file.

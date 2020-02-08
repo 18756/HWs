@@ -1,0 +1,3 @@
+/home/sasha/CLionProjects/HW7(1)/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/sasha/CLionProjects/HW7(1)/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/sasha/CLionProjects/HW7(1)/cmake-build-debug/CMakeFiles/HW7_1_.dir

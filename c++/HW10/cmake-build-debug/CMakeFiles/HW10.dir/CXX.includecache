@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sasha/CLionProjects/HW10/Array.h
+cstddef
+-
+iostream
+-
+Array_impl.h
+/home/sasha/CLionProjects/HW10/Array_impl.h
+
+/home/sasha/CLionProjects/HW10/Array_impl.h
+iostream
+-
+Array.h
+/home/sasha/CLionProjects/HW10/Array.h
+
+/home/sasha/CLionProjects/HW10/main.cpp
+iostream
+-
+Array.h
+/home/sasha/CLionProjects/HW10/Array.h
+

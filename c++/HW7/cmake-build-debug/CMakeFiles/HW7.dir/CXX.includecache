@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sasha/CLionProjects/HW7/Date.h
+iostream
+-
+
+/home/sasha/CLionProjects/HW7/Person.cpp
+Person.h
+/home/sasha/CLionProjects/HW7/Person.h
+
+/home/sasha/CLionProjects/HW7/Person.h
+string
+-
+ostream
+-
+Date.h
+/home/sasha/CLionProjects/HW7/Date.h
+
+/home/sasha/CLionProjects/HW7/Student.cpp
+Student.h
+/home/sasha/CLionProjects/HW7/Student.h
+
+/home/sasha/CLionProjects/HW7/Student.h
+ostream
+-
+Person.h
+/home/sasha/CLionProjects/HW7/Person.h
+
+/home/sasha/CLionProjects/HW7/main.cpp
+iostream
+-
+Student.h
+/home/sasha/CLionProjects/HW7/Student.h
+Date.h
+/home/sasha/CLionProjects/HW7/Date.h
+Person.h
+/home/sasha/CLionProjects/HW7/Person.h
+

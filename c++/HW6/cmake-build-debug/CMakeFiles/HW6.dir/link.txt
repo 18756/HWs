@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/HW6.dir/main.cpp.o CMakeFiles/HW6.dir/String.cpp.o  -o HW6 

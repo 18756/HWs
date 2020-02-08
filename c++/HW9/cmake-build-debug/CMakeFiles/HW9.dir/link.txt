@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/HW9.dir/main.cpp.o CMakeFiles/HW9.dir/Polynomial.cpp.o  -o HW9 
