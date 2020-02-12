@@ -17,7 +17,6 @@ public class Md2Html {
     private final String tagSymbols = "`*_-+~";
 
     public Md2Html(String input, String output) throws IOException {
-        //reader = new BufferedReader(new FileReader(input, StandardCharsets.UTF_8));
         reader = new BufferedReader(new InputStreamReader(new FileInputStream(input), StandardCharsets.UTF_8));
         outputFile = output;
     }
