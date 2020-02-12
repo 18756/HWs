@@ -4,7 +4,7 @@ import java.util.Stack;
 
 public class ExpressionParser implements Parser {
     public TripleExpression parse(String expression) throws Exception {
-        Stack<TripleExpression> rpn = new Stack<>();
+        Stack<TripleExpression> rpn = new Stack<>(); // reverse polish notation
         Stack<Character> stack = new Stack<>();
         StringBuilder num = new StringBuilder();
         String line = expression;
